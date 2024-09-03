@@ -16,9 +16,12 @@ This repository contains a custom implementation of the Adam optimizer from scra
 - **Results**:
   - Learning Rate (Step Size) is set at = 0.09
   - Number of epochs are set at = 200
-  - SGD: <img width="424" alt="image" src="https://github.com/user-attachments/assets/89db27e9-118e-4d62-a9a3-5c235ff9e479">
-  - Inbuilt Adam: <img width="415" alt="image" src="https://github.com/user-attachments/assets/75b1431c-3157-4311-9c6c-1aea45f961a7">
-  - Custom Implemented Adam: <img width="474" alt="image" src="https://github.com/user-attachments/assets/9e2cf12a-09d9-496f-b82f-9ad6f1d1a4fa">
+  - SGD: 
+    <img width="424" alt="image" src="https://github.com/user-attachments/assets/89db27e9-118e-4d62-a9a3-5c235ff9e479">
+  - Inbuilt Adam: 
+    <img width="415" alt="image" src="https://github.com/user-attachments/assets/75b1431c-3157-4311-9c6c-1aea45f961a7">
+  - Custom Implemented Adam: 
+    <img width="474" alt="image" src="https://github.com/user-attachments/assets/9e2cf12a-09d9-496f-b82f-9ad6f1d1a4fa">
 - **Conclusion**
     - Even after 200 epochs, SGD still concurs a loss of 0.2377
     - Meanwhile PyTorch's Adam and Custom Adam both almost converge to the minimum weights after around only 50/60 epochs.
